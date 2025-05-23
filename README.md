@@ -51,6 +51,7 @@ npm start
 
 ## 注意事项
 
-1. 生成的 EPUB 文件将保存在`public`目录下
-2. 文件名格式为时间戳.epub
-3. 可以通过`http://localhost:3000/文件名.epub`访问生成的 EPUB 文件, 后续生产环境访问方式类似本地访问
+1. NODE_VERSION == v22.16.0
+2. 生成的 EPUB 文件将保存在`public`目录下
+3. 文件名格式为时间戳.epub
+4. 可以通过`http://localhost:3000/文件名.epub`访问生成的 EPUB 文件, 后续生产环境访问方式类似本地访问
