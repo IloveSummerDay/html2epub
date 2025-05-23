@@ -1,0 +1,18 @@
+{
+  "name": "html2epub-api",
+  "version": "1.0.0",
+  "description": "HTML转EPUB的Express API服务",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@lesjoursfr/html-to-epub": "^4.5.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
